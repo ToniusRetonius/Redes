@@ -8,9 +8,24 @@ Cursada segundo cuatri 2025
 
 - Clase 3 : Medios compartidos [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Te%C3%B3ricas/T3/Resumen%20T3.pdf)
 
+- Clase 4 : Introducción a IP [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Te%C3%B3ricas/T4/Resumen%20T4.pdf)
+
 # Clases Prácticas 
 - Clase 1 : Transmisión de la información [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/1/Clase_Pr%C3%A1ctica___Transmisi%C3%B3n_de_la_informaci%C3%B3n.pdf)
 
 - Clase 2 : Protocolos punto a punto [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/2/Clase_Pr%C3%A1ctica___Protocolos_Punto_a_Punto.pdf)
 
 - Clase 3 : LAN switching [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/3/Resumen%20T3.pdf)
+
+- Clase 4 : Internetworking [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/4/Resumen%20P4.pdf)
+
+# Guías Prácticas
+
+- Guía 1 : Transmisión confiable [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP1/Solve%20GP1.pdf)
+
+- Guía 2 : Medios compartidos [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP2/solve%20GP2.pdf)
+
+
+# Bibliografía 
+
+- Computer Networks, Peterson [ Libro](https://github.com/ToniusRetonius/Redes/blob/main/Bibliograf%C3%ADa/Computer%20Networks%20A%20Systems%20Approach%20by%20Larry%20L.%20Peterson%2C%20Bruce%20S.%20Davie.pdf)
