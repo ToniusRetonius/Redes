@@ -29,7 +29,7 @@ Cursada segundo cuatri 2025
 
 - Guía 2 : Medios compartidos [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP2/solve%20GP2.pdf)
 
-
+- Guía 3 : Internetworking [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP3/solve.pdf)
 
 # Bibliografía 
 
