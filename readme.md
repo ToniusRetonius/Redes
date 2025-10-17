@@ -23,6 +23,8 @@ Cursada segundo cuatri 2025
 
 - Clase 5 : Ruteo [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/5/Resumen%20P5.pdf)
 
+- Clase 6 : Nivel de Transporte [Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Te%C3%B3ricas/T6/Resumen%20T6.pdf)
+
 # Guías Prácticas
 
 - Guía 1 : Transmisión confiable [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP1/Solve%20GP1.pdf)
