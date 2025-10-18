@@ -25,6 +25,8 @@ Cursada segundo cuatri 2025
 
 - Clase 5 : Ruteo [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/5/Resumen%20P5.pdf)
 
+- Clase 6 : Nivel de Transporte [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/6/Resumen%20P6.pdf)
+
 
 # Guías Prácticas
 
