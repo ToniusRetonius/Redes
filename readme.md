@@ -29,6 +29,7 @@ Cursada segundo cuatri 2025
 
 - Clase 6 : Nivel de Transporte [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/6/Resumen%20P6.pdf)
 
+- Clase 7 : Congestión [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/7/Resumen%20P7.pdf)
 
 # Guías Prácticas
 
