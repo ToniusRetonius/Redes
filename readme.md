@@ -39,6 +39,7 @@ Cursada segundo cuatri 2025
 
 - Guía 3 : Internetworking [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP3/solve.pdf)
 
+- Guía 4 : Nivel de Transporte [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP4/solve.pdf)
 # Bibliografía 
 
 - Computer Networks, Peterson [ Libro](https://github.com/ToniusRetonius/Redes/blob/main/Bibliograf%C3%ADa/Computer%20Networks%20A%20Systems%20Approach%20by%20Larry%20L.%20Peterson%2C%20Bruce%20S.%20Davie.pdf)
