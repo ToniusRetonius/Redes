@@ -57,6 +57,18 @@ Datos del problema :
 - RWND = 64KB
 - A partir de los 600ms RWND = 16KB
 
-|RTT | CWND | RWND | SSTHRESH | FlightSize | LastByteSent | Comentarios|
+|RTT | CWND | RWND | SSTHRESH | FlightSize | LastByteSent | Comentarios        |
+|1   | 4KB  | 64KB | 64KB     | 4KB        | 4KB          | CWND = IW = 2 *SMSS|
+|2   | 8KB  | 64KB | 64KB     | 8KB        | 12KB         | CWND += 2 * SMSS   |
+|3   | 16KB | 64KB | 64KB     | 4KB        | 28KB         | CWND += 4 * SMSS   |
+|4   | 32KB | 64KB | 64KB     | 32KB       | 60KB         | CWND += 8 * SMSS   |
+|5   | 32KB | 64KB | 64KB     | 32KB       | 60KB         | Timeout            |
+|6   | 2KB  | 16KB | 16KB     | 2KB        | 30KB         | CWND = LS (1 SMSS), SSTHRESH = max(fs/2, 2 * SMSS) |
+|7   | 4KB  | 16KB | 16KB     | 4KB        | 34KB         | CWND += 1 * SMSS   |
+|8   | 8KB  | 16KB | 16KB     | 8KB        | 42KB         | CWND += 2 * SMSS   |
+|9   | 16KB | 16KB | 16KB     | 16KB       | 58KB         | CWND += 4 * SMSS   |
+|10  | 16KB | 16KB | 16KB     | 16KB       | 72KB         | *Additive increase* CWND += SMSS  pero > RWND, tomamos el min |
+|11  | 16KB | 16KB | 16KB     | 8KB        | 80KB         | *Additive increase* CWND += SMSS pero > RWND, tomamos el min   |
 
-|1   | 2KB  | 64KB | 64KB   | 2KB | 2KB | 
+Respuesta : CWND vale 16KB una vez terminada la transferencia.
+
