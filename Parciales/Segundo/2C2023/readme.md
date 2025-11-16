@@ -73,3 +73,12 @@ Datos del problema :
 
 Respuesta : CWND vale 16KB una vez terminada la transferencia.
 
+
+
+## Ejercicio 4
+La idea es encontrar el registro de tipo *MX* para el nombre de dominio *es.wikipedia.org* y luego el de tipo *A* para el servidor indicado por ese MX. 
+- Lo primero que sucede es que el resolver le consulta al Root por el registro MX de es.wikipedia.org, que no lo tiene y delega la consulta resolviendo el registro NS del TLD (.org)y el glue record. 
+- A continuación, le consultará al NS del TLD (.org) por el registro MX con nombre de dominio es.wikipedia.org que delegará con el registro de tipo NS del autoritativo (wikipedia.org) con el glue record para consultarle. 
+- El resolver preguntará a este último por el registro MX con nombre de dominio es.wikipedia.org, este finalmente contiene los registros de este tipo, y devuelve los servidores que se encargan de recibir los correos (MTA). 
+- Una vez que se tiene el registro MX, el resolver busca la IP de ese servidor, o sea, el registro tipo A. El resolver le entrega al servidor de correo saliente la IP.
+- El servicio de correo saliente inicia una conexión SMTP a ese servidor y envía el mail.

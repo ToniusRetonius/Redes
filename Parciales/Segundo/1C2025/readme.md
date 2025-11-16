@@ -11,4 +11,14 @@ Para calcular la cantidad de datos enviados ACK - SEQi, es decir, si yo mmando u
 
 
 ## Ejercicio 2
+Si cierta aplicación tiene que resolver una IP de un servidor web con nombre de dominio www.dominio.com.ar lo que hará es llamar al *stub resolver* que corre localmente para que haga la consulta al *local name server (ISP)* (recursivo). En caso de no tenerlo este último en cache, deberá hacer el siguiente flujo de consultas :
 
+- *Local name server -> Root server, Root server -> Local name server * : el recurser consulta al root por el TLD .ar, este devolverá registro NS responable de (.ar) con el *glue record*: la ip asociada a ellos para poder comunicarse y continuar la consulta.
+
+- *Local name server -> (.ar) , (.ar) -> Local name server* : le consulta el resolver recursivo al name server TLD el registro para www.dominio.com.ar, con lo cual, el TLD conoce el registro NS del autoritativo (com.ar), y si corresponde, el *glue record* : del mismo con su IP asociada.
+
+- *Local name server -> (.com.ar) , (.com.ar) -> Local name server*: en este caso, le consulta por www.dominio.com.ar y el autoritativo (.com.ar) NS conoce el registro del NS de dominio.com.ar con lo cual responde el registro NS y el glue record con la IP.
+
+- *Local name server -> (.dominio.com.ar),(.dominio.com.ar) -> Local name server * : al autoritativo se le consulta por www.dominio.com.ar y este tiene el registro tipo A de la consulta, responde con la IP.
+
+- *Local name server -> aplicación*: una vez resuelta la consulta DNS, el local name server le envía al cliente la IP de la consulta para que la capture el DNS resolver del SO y que le pase la información a la aplicación que la necesitaba
