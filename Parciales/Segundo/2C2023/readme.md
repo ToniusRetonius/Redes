@@ -49,6 +49,14 @@ Para el escenario que continua,
 
 - Al recibirlo, A, pasa *LAST_ACK -> CLOSED*
 
+## Ejercicio 2
+Datos del problema :
+- RTT = 100ms
+- Cantidad de datos a transmitir = 80KB
+- Límite del proveedor = 32KB
+- RWND = 64KB
+- A partir de los 600ms RWND = 16KB
 
+|RTT | CWND | RWND | SSTHRESH | FlightSize | LastByteSent | Comentarios|
 
-
+|1   | 2KB  | 64KB | 64KB   | 2KB | 2KB | 
