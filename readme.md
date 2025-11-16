@@ -51,7 +51,9 @@ Cursada segundo cuatri 2025
 
 - Guía 5 : Congestión [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP5/solve.pdf)
 
-- Guía 6 : 
+- Guía 6 : Aplicaciones [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP6/solve.pdf)
+
+- Guía 7 : Seguridad [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP7/solve.pdf)
 # Bibliografía 
 
 - Computer Networks, Peterson [ Libro](https://github.com/ToniusRetonius/Redes/blob/main/Bibliograf%C3%ADa/Computer%20Networks%20A%20Systems%20Approach%20by%20Larry%20L.%20Peterson%2C%20Bruce%20S.%20Davie.pdf)
