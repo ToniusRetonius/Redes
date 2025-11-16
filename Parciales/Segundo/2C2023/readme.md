@@ -58,6 +58,7 @@ Datos del problema :
 - A partir de los 600ms RWND = 16KB
 
 |RTT | CWND | RWND | SSTHRESH | FlightSize | LastByteSent | Comentarios        |
+|----|------|------|----------|------------|--------------|--------------------|
 |1   | 4KB  | 64KB | 64KB     | 4KB        | 4KB          | CWND = IW = 2 *SMSS|
 |2   | 8KB  | 64KB | 64KB     | 8KB        | 12KB         | CWND += 2 * SMSS   |
 |3   | 16KB | 64KB | 64KB     | 4KB        | 28KB         | CWND += 4 * SMSS   |
