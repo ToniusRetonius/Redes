@@ -16,6 +16,9 @@ Cursada segundo cuatri 2025
 
 - Clase 7 : Congestión [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Te%C3%B3ricas/T7/Resumen%20T7.pdf)
 
+- Clase 8 : Seguridad [Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Te%C3%B3ricas/T8/Resumen%20T8.pdf)
+
+
 # Clases Prácticas 
 - Clase 1 : Transmisión de la información [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/1/Clase_Pr%C3%A1ctica___Transmisi%C3%B3n_de_la_informaci%C3%B3n.pdf)
 
@@ -31,6 +34,11 @@ Cursada segundo cuatri 2025
 
 - Clase 7 : Congestión [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/7/Resumen%20P7.pdf)
 
+- Clase 8 : DNS [ Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/8/Resumen%20P8.pdf)
+
+- Clase 9 : Capa de aplicación [Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/9/Resumen%20P9.pdf)
+
+- Clase 10 : Seguridad [Resumen](https://github.com/ToniusRetonius/Redes/blob/main/Pr%C3%A1cticas/10/Resumen%20P10.pdf)
 # Guías Prácticas
 
 - Guía 1 : Transmisión confiable [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP1/Solve%20GP1.pdf)
@@ -40,6 +48,10 @@ Cursada segundo cuatri 2025
 - Guía 3 : Internetworking [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP3/solve.pdf)
 
 - Guía 4 : Nivel de Transporte [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP4/solve.pdf)
+
+- Guía 5 : Congestión [ Solve](https://github.com/ToniusRetonius/Redes/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/GP5/solve.pdf)
+
+- Guía 6 : 
 # Bibliografía 
 
 - Computer Networks, Peterson [ Libro](https://github.com/ToniusRetonius/Redes/blob/main/Bibliograf%C3%ADa/Computer%20Networks%20A%20Systems%20Approach%20by%20Larry%20L.%20Peterson%2C%20Bruce%20S.%20Davie.pdf)
