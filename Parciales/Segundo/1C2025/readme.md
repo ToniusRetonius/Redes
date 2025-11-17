@@ -22,3 +22,9 @@ Si cierta aplicación tiene que resolver una IP de un servidor web con nombre de
 - *Local name server -> (.dominio.com.ar),(.dominio.com.ar) -> Local name server * : al autoritativo se le consulta por www.dominio.com.ar y este tiene el registro tipo A de la consulta, responde con la IP.
 
 - *Local name server -> aplicación*: una vez resuelta la consulta DNS, el local name server le envía al cliente la IP de la consulta para que la capture el DNS resolver del SO y que le pase la información a la aplicación que la necesitaba
+
+
+## Ejercicio 3
+La secuencia de envío es como sigue:
+*Emisor -> Web server -> mail server saliente -> Internet -> mail server entrante <- Receptor*
+La secuencia es de esta manera ya que el cliente(emisor) hace uso de un webmail para enviarlo. Por tanto, la aplicación web corre en un servidor web. Con esto en mente, la conexión del emisor al web server es por HTTP(S):TCP. Luego, el web server se conecta mediante SMTP:TCP al mail server y luego, entre mail servers se conectan mediante SMTP:TCP. Dando como resultado, 3 conexiones TCP. Para el caso del receptor, deberá iniciar una conexión con IMAP o POP3 (que también están sobre TCP) para poder realizar la lectura o podría hacer uso de un webmail y en ese escenario, tendríamos una conexión HTTP:TCP desde el receptor al web server y del web server al mail server entrante a través de IMAP o POP3. Como consecuencia, 2 conexiones TCP más. *(consultar)*

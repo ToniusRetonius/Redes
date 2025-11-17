@@ -73,7 +73,27 @@ Datos del problema :
 
 Respuesta : CWND vale 16KB una vez terminada la transferencia.
 
+## Ejercicio 3
+Para el primer acceso desde HostA tenemos un mensaje como:
+*GET /index.html HTTP/1.1*
+*Host: www.onlyonepicture.com*
+Con lo cual el proxy al que está conectado HostA hace la solicitud al web server que tiene el HTML de la página web. Este le responde algo como:
+*HTTP/1.1 200 OK*
+*Content-type: txt/html*
+*Content-length: 500*
+Esta longitud es por el código HTML (500 bytes). A continuación, el HostA detecta que le falta algo en el documento HTML, la imagen, entonces debe pedirla:
+*GET img.png HTTP/1.1*
+*Host: www.onlyonepicture.com*
+Con lo cual, el proxy le consulta al web server y este último se la manda :
+*HTTP/1.1 200 OK*
+*Content-type: imgage/png*
+*Content-length: 1024*
+Tenemos 8 mensajes HTTP en el primer acceso.
 
+Para el segundo acceso, como se realiza a través del mismo proxy, todo lo tiene en cache. El HostB hace el pedido:
+*GET /index.html HTTP/1.1*
+*Host: www.onlyonepicture.com*
+El proxy responde sin consultar al web server, y lo mismo con la imagen.
 
 ## Ejercicio 4
 La idea es encontrar el registro de tipo *MX* para el nombre de dominio *es.wikipedia.org* y luego el de tipo *A* para el servidor indicado por ese MX. 

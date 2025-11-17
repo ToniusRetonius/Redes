@@ -15,3 +15,30 @@ El tema está cuando los acknoledgements de los segmentos que mandamos tardan mu
 
 ## Ejercicio 3
 En el caso de tener almacenado un registro DNS tipo A con un valor de TTL=3 días con nombre de dominio= dc.uba.ar y valor=157.92.27.128 en cierto cliente, si se realiza una modificación del registro por parte de un *name server autoritativo* como la modificación de la IP del nombre de dominio, el cambio no se replica como un push en Git. Lo que sucede es que, si bien es efectivo el cambio en el autoritativo, en los name server que contengan el registro desactualizado no impactará el cambio hasta que no haya expirado el mismo (tiempo determinado por el TTL). Cuando haya expirado, recién ahí, cuando el resolver haga la consulta, podrá impactar el cambio.
+
+## Ejercicio 4
+
+En el protocolo HTTP, las peticiones del cliente al servidor tienen un formato como:
+*request line : método--recurso--version*
+*header line: header field:---value*
+*...*
+*blank*
+*data*
+En este contexto, nos piden comparar dos métodos: GET y POST.
+- Cuando el cliente realiza una petición al servidor con el método **GET** está pidiendo recibir un recurso que se encuentra alojado en dicho servidor. Por ejemplo :
+*GET /index.html HTTP/1.1*
+*Host: www.dc.uba.ar*
+En esta solicitud, el cliente quiere acceder a un recurso de tipo HTML alojado en el servidor. La respuesta del servidor tiene el formato: 
+*status line : version---status---phrase*
+*header line: header field:---value*
+*blank*
+*data*
+Y como consecuencia, si lo tiene al recurso responde:
+*HTTP/1.1 200 OK*
+*content-type: text/html*
+puede contener longitud, fecha, servidor,... 
+
+- En el caso de que el cliente quiera enviar datos al servidor, por ejemplo para crear un nuevo recurso, lo puede hacer mediante el método **POST** como sigue:
+*POST logo.jpg HTTP/1.1*
+*Host: www.dc.uba.ar*
+
