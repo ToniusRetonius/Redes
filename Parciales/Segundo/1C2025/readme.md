@@ -28,3 +28,13 @@ Si cierta aplicación tiene que resolver una IP de un servidor web con nombre de
 La secuencia de envío es como sigue:
 *Emisor -> Web server -> mail server saliente -> Internet -> mail server entrante <- Receptor*
 La secuencia es de esta manera ya que el cliente(emisor) hace uso de un webmail para enviarlo. Por tanto, la aplicación web corre en un servidor web. Con esto en mente, la conexión del emisor al web server es por HTTP(S):TCP. Luego, el web server se conecta mediante SMTP:TCP al mail server y luego, entre mail servers se conectan mediante SMTP:TCP. Dando como resultado, 3 conexiones TCP. Para el caso del receptor, deberá iniciar una conexión con IMAP o POP3 (que también están sobre TCP) para poder realizar la lectura o podría hacer uso de un webmail y en ese escenario, tendríamos una conexión HTTP:TCP desde el receptor al web server y del web server al mail server entrante a través de IMAP o POP3. Como consecuencia, 2 conexiones TCP más. *(consultar)*
+
+
+
+# Ejercicio 4
+Si queremos desarrollar un sistema de control de acceso basado en certificiados, donde la empresa tiene el suyo firmado por una CA, necesitamos que cada uno de los empleados:
+1. Genere un par de claves (Pública-Privada).
+2. Realice el pedido a una RA (Autoridad de Registro) para que verifique que su clave pública le pertenece.
+3. Reciba de la CA el certificado digital donde figura su firma asegurando que la clave pública es del usuario.
+4. Almacene este certificado localmente.
+Para el caso del servidor, deberá tener el certificado de la empresa almacenado. Esto será vital cuando el usuario quiera acceder al sistema que se realice mediante un handshake SSL/TLS donde, en general la autenticación es opcional, pero en este escenario queremos hacer hincapié en la autenticación por parte del cliente. Por tanto, necesitaremos que la autoridad que emite el certificado de ambos o bien, sea la misma, o esté en la cadena de confianza, para asegurar que cuando se constate que la clave pública pertenece a quién dice pertenecer, tengamos garantía de ello. Esto último introduce la necesidad de tener en todos los actores la clave pública de la autoridad certificante almacenada en el sistema para descifrar la firma de la autoridad certificante y chequear que sea esa la clave pública de la persona que se autentica o del servidor al que se conecta (el de la empresa). 
