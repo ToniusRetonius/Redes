@@ -59,4 +59,4 @@ Cursada segundo cuatri 2025
 - Computer Networks, Peterson [ Libro](https://github.com/ToniusRetonius/Redes/blob/main/Bibliograf%C3%ADa/Computer%20Networks%20A%20Systems%20Approach%20by%20Larry%20L.%20Peterson%2C%20Bruce%20S.%20Davie.pdf)
 
 # Final
-Compilado de preguntas de finales [https://github.com/ToniusRetonius/Redes/blob/main/Final/Preguntas.pdf]
+[Compilado](https://github.com/ToniusRetonius/Redes/blob/main/Final/Preguntas.pdf) de preguntas de finales viejos
