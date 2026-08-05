@@ -85,3 +85,4 @@ En este escenario, la desventaja es el costo computacional donde el cifrado y de
 En cuanto a la escalabilidad, al aumentar la cantidad de emisores, en TDM y FDM, como son fijas las cantidades asignadas, esto hace que si alguien no está haciendo uso del recurso, se subutiliza, con los cual es baja para ambos. Sin embargo, en contención estadística, como es bajo demanda, es muy escalable, hay que controlar nada más que no hayan colisiones, como vimos con los protocolos CSMA y controlar la congestión, pero va.
 
 2. 
+![Esquema](esquema.png)
